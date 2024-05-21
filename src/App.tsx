@@ -1,6 +1,6 @@
 import "./App.scss";
 import { useEffect, useState } from "react";
-import TopBar from "./components/Topbar";
+import TopBar from "./components/TopBar";
 import { DisplayMode } from "./types/settings";
 import { fetchLanguages, fetchRepositories } from "./api/github";
 import DataList from "./components/DataList";
