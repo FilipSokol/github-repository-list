@@ -1,0 +1,27 @@
+.noData,
+.loader {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.noData {
+  font-size: 42px;
+  flex-direction: column;
+  gap: 4px;
+  color: #b1b1b1;
+}
+
+.loaderIcon {
+  font-size: 32px;
+  color: #1777ff;
+}
+
+.list {
+  margin: 8px 16px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
